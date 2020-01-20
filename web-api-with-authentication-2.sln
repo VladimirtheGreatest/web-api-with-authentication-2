@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{A52A87EB-888A-49A9-A715-E1C9DF1771D8}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "Database1\Database1.sqlproj", "{F84C8B2A-DE0D-4393-9422-006008840101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLogic", "ApiLogic\ApiLogic.csproj", "{56396E43-BA24-4FCD-B983-2CCD7F6011CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{A52A87EB-888A-49A9-A715-E1C9DF1771D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A52A87EB-888A-49A9-A715-E1C9DF1771D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A52A87EB-888A-49A9-A715-E1C9DF1771D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84C8B2A-DE0D-4393-9422-006008840101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84C8B2A-DE0D-4393-9422-006008840101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84C8B2A-DE0D-4393-9422-006008840101}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F84C8B2A-DE0D-4393-9422-006008840101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84C8B2A-DE0D-4393-9422-006008840101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84C8B2A-DE0D-4393-9422-006008840101}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{56396E43-BA24-4FCD-B983-2CCD7F6011CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56396E43-BA24-4FCD-B983-2CCD7F6011CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56396E43-BA24-4FCD-B983-2CCD7F6011CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56396E43-BA24-4FCD-B983-2CCD7F6011CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
