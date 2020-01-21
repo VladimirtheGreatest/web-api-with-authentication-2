@@ -15,7 +15,7 @@ namespace ApiLogic.DataAccess
                 SqlDataAccess sql = new SqlDataAccess();
 
                 //passing stored procedure, and choosing the database for our querie, check sqldataaccess
-                var output = sql.LoadData<ProductModel, dynamic>("spProduct_GetAll", new { }, "RMData");
+                var output = sql.LoadData<ProductModel, dynamic>("spProduct_GetAll", new { }, "Database1");
 
                 return output;
             }
